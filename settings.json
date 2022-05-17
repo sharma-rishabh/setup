@@ -1,0 +1,21 @@
+{
+    "editor.fontSize": 18,
+    "terminal.integrated.fontSize": 15,
+    "editor.minimap.enabled": false,
+    "workbench.sideBar.location": "right",
+    "breadcrumbs.enabled": false,
+    "terminal.integrated.macOptionIsMeta": true,
+    "workbench.startupEditor": "none",
+    "workbench.editor.enablePreview": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.tabSize": 2,
+    "javascript.preferences.quoteStyle": "single",
+    "editor.wordWrap": "bounded",
+    "editor.rulers": [
+        80
+    ],
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "One Dark Pro Darker"
+}

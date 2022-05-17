@@ -1,0 +1,86 @@
+{
+	// Place your snippets for javascript here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"Log to console": {
+		"prefix": "log",
+		"body": [
+			"console.log(${1:args});"
+		],
+		"description": "Creates a log statement."
+	},
+	"To declare a const function": {
+		"prefix": "cf",
+		"body": [
+			"const ${1:fnName}= function (${2:args}){",
+			"return ${3:returnValue};",
+			"};"
+		],
+		"description": "Creates a function template."
+	},
+	"For reduce": {
+		"prefix": "reduce",
+		"body": [
+			"${1:array}.reduce(${2:fnName},${3:context});"
+		],
+		"description": "Creates a template to use reduce."
+	},
+	"For filter": {
+		"prefix": "filter",
+		"body": [
+			"${1:array}.filter(${2:predicate});"
+		],
+		"description": "Creates a template to use filter."
+	},
+	"For map": {
+		"prefix": "map",
+		"body": [
+			"${1:array}.map(${2:mapper});"
+		],
+		"description": "Creates a template to use map."
+	},
+	"For arrow function": {
+		"prefix": "arrow",
+		"body": [
+			"${1:fnName}=(${2:args})=>${3:expression};"
+		],
+	},
+	"require": {
+		"prefix": "rq",
+		"body": [
+			"const ${1:data}lib = require('./${1:lib}.js');"
+		],
+		"description": "require statement"
+	},
+	"export statement": {
+		"prefix": "ex",
+		"body": [
+			"exports.${1:object} = ${1:name};"
+		],
+		"description": "exports"
+	},
+	"const variable": {
+		"prefix": "cv",
+		"body": [
+			"const ${1:name} = ${2:value};"
+		],
+		"description": "const variable"
+	},
+	"assert DSE": {
+		"prefix": "dq",
+		"body": [
+			"assert.deepStrictEqual(${1:actual},${2:expected})"
+		],
+		"description": "DSE"
+	},
+}
