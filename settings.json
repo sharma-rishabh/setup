@@ -16,6 +16,5 @@
         80
     ],
     "terminal.integrated.enableMultiLinePasteWarning": false,
-    "window.zoomLevel": 1,
-    "workbench.colorTheme": "One Dark Pro Darker"
+    "window.zoomLevel": 1
 }

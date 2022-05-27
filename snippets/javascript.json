@@ -88,7 +88,7 @@
 		"body": [
 			"describe('${1:function description}', () => {",
 			"\tit('${2:should do something.}', () => {",
-			"\t\treturn assert.${3:strictEqual}(${4:actual}, ${5:expected});",
+			"\t\tassert.${3:strictEqual}(${4:actual}, ${5:expected});",
 			"\t})",
 			"});"
 		]
